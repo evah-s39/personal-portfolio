@@ -1,4 +1,5 @@
 # Evah Shaji - Personal Portfolio Website
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
 ## What this project is
 This is my personal portfolio website, inspired by Sharlene Yap’s desktop-style design. It’s a fully interactive site built with **HTML, CSS, and JavaScript**, showcasing who I am, my skills, experience, achievements, and ways to connect with me. The design uses a desktop-like interface with draggable windows, a custom cursor, animated background effects, and hover interactions to make the experience more engaging.  
