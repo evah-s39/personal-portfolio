@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Personal site</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evah Shaji - Interactive Portfolio</title>
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="background"></div>
+  <div class="floating-particles"></div>
+
+  <div class="container">
+    <section class="hero">
+      <h1 class="hero-title">evah shaji</h1>
+      <p class="hero-subtitle">Climate Advocate • Data Enthusiast • Youth Leader</p>
+      <div class="hero-location">
+        <span>📍</span>
+        <span>Abu Dhabi, UAE</span>
+      </div>
+    </section>
+
+    <div class="taskbar">
+      <div class="taskbar-item" data-tooltip="About" onclick="openWindow('about')">👋</div>
+      <div class="taskbar-item" data-tooltip="Experience" onclick="openWindow('experience')">💼</div>
+      <div class="taskbar-item" data-tooltip="Skills" onclick="openWindow('skills')">🚀</div>
+      <div class="taskbar-item" data-tooltip="Achievements" onclick="openWindow('achievements')">🏆</div>
+      <div class="taskbar-item" data-tooltip="Contact" onclick="openWindow('contact')">📧</div>
+    </div>
+
+    <div id="about-window" class="window">
+      <div class="window-header">
+        <div class="window-controls">
+          <div class="window-control close" onclick="closeWindow('about')"></div>
+          <div class="window-control minimize"></div>
+          <div class="window-control maximize"></div>
+        </div>
+        <div class="window-title">About Me</div>
+      </div>
+      <div class="window-content">
+        <p>Hi! I'm Evah, a passionate high school student committed to climate action and data science. Currently serving as Secretary of Activities for my Student Council, I love organizing events, mentoring peers, and creating meaningful change through youth leadership.</p>
+        <br>
+        <p>When I'm not working on sustainability initiatives or diving into data analytics, you can find me writing for school publications, participating in poetry competitions, or collaborating on educational outreach programs.</p>
+        <br>
+        <div class="terminal">
+          <div class="terminal-header">
+            <div class="terminal-dot red"></div>
+            <div class="terminal-dot yellow"></div>
+            <div class="terminal-dot green"></div>
+          </div>
+          <div class="terminal-content">
+            <div>$ whoami</div>
+            <div>evah_shaji</div>
+            <div>$ cat interests.txt</div>
+            <div class="typing-animation">Climate Action | Data Science | Writing | Leadership</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="experience-window" class="window">
+      <div class="window-header">
+        <div class="window-controls">
+          <div class="window-control close" onclick="closeWindow('experience')"></div>
+          <div class="window-control minimize"></div>
+          <div class="window-control maximize"></div>
+        </div>
+        <div class="window-title">Leadership & Experience</div>
+      </div>
+      <div class="window-content">
+        <div class="experience-item">
+          <div class="experience-title">Secretary Activities, Student Council</div>
+          <div class="experience-org">BRS</div>
+          <div class="experience-date">2025-26</div>
+          <div class="experience-desc">Managing behind-the-scenes coordination for all school events, documenting records, and facilitating communication across council, faculty, and administration.</div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-title">Director of Publications</div>
+          <div class="experience-org">BRS</div>
+          <div class="experience-date">2024-25</div>
+          <div class="experience-desc">Leading editorial strategy for school publications; managing submissions, editing, layout design, and fostering authentic student voices.</div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-title">Secretary, TED-Ed Thunders Club</div>
+          <div class="experience-org">BRS</div>
+          <div class="experience-date">2023-24</div>
+          <div class="experience-desc">Organized climate-focused talks, curated agendas, and mentored peers in public speaking and research.</div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-title">HR Team Member</div>
+          <div class="experience-org">Instilt-Educate (Student-led NGO)</div>
+          <div class="experience-date">2022-23</div>
+          <div class="experience-desc">Managed volunteer recruitment, maintained schedules, coordinated workshops, and fostered team culture.</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills-window" class="window">
+      <div class="window-header">
+        <div class="window-controls">
+          <div class="window-control close" onclick="closeWindow('skills')"></div>
+          <div class="window-control minimize"></div>
+          <div class="window-control maximize"></div>
+        </div>
+        <div class="window-title">Skills & Interests</div>
+      </div>
+      <div class="window-content">
+        <div class="content-grid">
+          <div class="content-card">
+            <div class="card-title">📊 Data Analysis</div>
+            <div class="card-description">Certified in HP LIFE Data Science & Analytics. Using data to understand environmental challenges.</div>
+          </div>
+          <div class="content-card">
+            <div class="card-title">💻 Web Development</div>
+            <div class="card-description">100% scholarship at Kode With Klossy. Building digital solutions for climate awareness.</div>
+          </div>
+          <div class="content-card">
+            <div class="card-title">🌱 Climate Action</div>
+            <div class="card-description">Active in sustainability initiatives and environmental outreach programs.</div>
+          </div>
+          <div class="content-card">
+            <div class="card-title">✍️ Writing & Publishing</div>
+            <div class="card-description">Finalist in poetry competitions and experienced in editorial strategy.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="achievements-window" class="window">
+      <div class="window-header">
+        <div class="window-controls">
+          <div class="window-control close" onclick="closeWindow('achievements')"></div>
+          <div class="window-control minimize"></div>
+          <div class="window-control maximize"></div>
+        </div>
+        <div class="window-title">Achievements & Recognition</div>
+      </div>
+      <div class="window-content">
+        <div class="achievement-grid">
+          <div class="achievement-item">🥇 1st Place<br>Quizizz Workshop</div>
+          <div class="achievement-item">🏅 Finalist<br>Poetry Competition</div>
+          <div class="achievement-item">📖 Finalist<br>CBSE Authors Programme</div>
+          <div class="achievement-item">🏆 Champion<br>BRS Reading Challenge</div>
+          <div class="achievement-item">🧠 20th National Rank<br>KenKen Competition</div>
+          <div class="achievement-item">🎓 99.61 Percentile<br>Tallentex Scholarship</div>
+          <div class="achievement-item">💻 100% Scholarship<br>Kode With Klossy</div>
+          <div class="achievement-item">🔬 Certified<br>HP LIFE Data Science</div>
+          <div class="achievement-item">🌍 Representative<br>World Earth Day</div>
+          <div class="achievement-item">📚 Member<br>G&T English Program</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact-window" class="window">
+      <div class="window-header">
+        <div class="window-controls">
+          <div class="window-control close" onclick="closeWindow('contact')"></div>
+          <div class="window-control minimize"></div>
+          <div class="window-control maximize"></div>
+        </div>
+        <div class="window-title">Let's Connect!</div>
+      </div>
+      <div class="window-content">
+        <p style="text-align: center; margin-bottom: 20px;">I'm always excited to discuss climate action, data science projects, or collaboration opportunities!</p>
+        <div class="contact-buttons">
+          <a href="mailto:evahshaji@gmail.com" class="contact-btn">
+            <span>📧</span>
+            Email Me
+          </a>
+          <a href="https://www.linkedin.com/in/evahshaji/" target="_blank" class="contact-btn">
+            <span>💼</span>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
